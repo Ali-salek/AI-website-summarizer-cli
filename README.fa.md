@@ -21,8 +21,8 @@
 </div>
 
 ```bash
-git clone https://github.com/Ali-salek/ai-website-summarizer-cli.git
-cd ai-website-summarizer-cli
+git clone https://github.com/Ali-salek/AI-website-summarizer-cli.git
+cd AI-website-summarizer-cli
 
 python -m venv .venv
 source .venv/bin/activate        # ویندوز: .venv\Scripts\activate
