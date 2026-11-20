@@ -1,8 +1,9 @@
 import os
 import requests
-
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
+from rich.console import Console
+from rich.markdown import Markdown
 from openai import OpenAI, RateLimitError, APIError
 
 
@@ -183,7 +184,7 @@ def main():
             print("               SUMMARY")
             print("=" * 50)
 
-            print(answer)
+            Console().print(Markdown(answer))
 
             print("\n" + "=" * 50 + "\n")
 
